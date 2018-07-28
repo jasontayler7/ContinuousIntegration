@@ -1,0 +1,17 @@
+{
+"containerDefinitions": [
+   {
+    "name": "spring3app",
+    "image": "018174485325.dkr.ecr.ap-southeast-2.amazonaws.com/spring3app:latest",
+    "portMappings": [
+    {
+       "containerPort": 8080,
+       "hostPort": 8080
+    }
+    ],
+    "memory": 512,
+    "cpu": 256
+  }
+],
+"family": "spring3app"
+}
